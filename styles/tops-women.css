@@ -1,0 +1,198 @@
+.product-details {
+  height: 1500px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+}
+.filter {
+  height: 1500px;
+  width: 22%;
+  /* border: 1px solid red; */
+}
+.products {
+  height: 1500px;
+  width: 78%;
+  /* border: 1px solid blue; */
+}
+.sorting {
+  height: 50px;
+  width: 15%;
+  /* border: 1px solid green; */
+}
+#select {
+  margin-top: 2%;
+  height: 40px;
+  width: 100%;
+  background-color: white;
+  color: #000;
+  border: 1px solid gray;
+  font-weight: bolder;
+}
+.heading {
+  height: 50px;
+  width: 100%;
+  /* border: 1px solid yellow; */
+}
+.filters {
+  width: 80%;
+  height: 40px;
+  border: 1px solid gray;
+  text-align: left;
+  background-color: white;
+  color: black;
+  margin-left: 8%;
+  font-weight: bolder;
+}
+.product-items {
+  height: 1450px;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+.fa-caret-up {
+  margin-left: 55%;
+}
+
+/* Style the sidenav links and the dropdown button */
+.filter a,
+.dropdown-btn {
+  height: 40px;
+  padding: 6px 8px 6px 30px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  font-weight: bolder;
+}
+
+/* On mouse-over */
+/* .filter a:hover,
+.dropdown-btn:hover {
+  color: #f1f1f1;
+  background-color: black;
+} */
+
+/* Add an active class to the active dropdown button */
+/* .active {
+  color: black;
+} */
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: white;
+  padding-left: 8px;
+  font-size: 14px;
+}
+.color-box {
+  display: flex;
+}
+
+/* Optional: Style the caret down icon */
+.fa-plus {
+  float: right;
+  padding-right: 8px;
+  color: #888;
+}
+
+/* Some media queries for responsiveness */
+
+.clrImg {
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+}
+.dropdown-btn a {
+  font-size: 12px;
+  font-weight: 400;
+}
+/* .head {
+    margin: 22px 0 16px 20px;
+    font-size: 19px;
+    text-transform: uppercase;
+  
+  } */
+
+.dropdown-btn:hover {
+  background-color: white;
+  color: black;
+}
+hr {
+  margin-left: 10px;
+  color: #888;
+}
+span {
+  padding-right: 20px;
+}
+
+#productDisplay {
+  width: 93%;
+  border: 1px solid transparent;
+  margin: auto;
+  margin-top: 10px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px;
+}
+
+#products > div {
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h3 {
+  padding-left: 2%;
+  margin-top: 0%;
+  margin-bottom: 1%;
+  font-size: 18px;
+}
+
+.about-women {
+  /* border: 1px solid black; */
+  margin-top: 157%;
+  font-weight: 600;
+  font-size: 13px;
+  color: rgb(114, 110, 110);
+}
+.about-women:hover {
+  color: rgb(114, 110, 110);
+}
+.thumbnail {
+  height: 500px;
+  width: 100%;
+  /* border: 1px solid #000; */
+}
+.thumbnail-heading {
+  height: 40px;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.thumbnail-photo {
+  height: 460px;
+  width: 100%;
+  /* border: 1px solid green; */
+  display: flex;
+  gap: 20px;
+}
+.image-box {
+  height: 460px;
+  width: 21.7%;
+  /* border: 1px solid yellow; */
+  margin-left: 1.6%;
+}
+.image-pic {
+  height: 420px;
+  width: 100%;
+  /* border: 1px solid purple; */
+}
+.caption {
+  height: 40px;
+  width: 100%;
+  /* border: 1px solid brown; */
+}

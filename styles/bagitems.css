@@ -1,0 +1,88 @@
+.bagcontainer {
+  height: 100vh;
+  width: 90%;
+  /* border: 1px solid black; */
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.cart-items {
+  height: 500px;
+  width: 60%;
+  /* border: 1px solid green; */
+}
+.payment-page {
+  height: 500px;
+  width: 30%;
+  /* border: 1px solid red; */
+  background-color: rgba(201, 204, 204, 0.37);
+}
+#cartProducts {
+  display: flex;
+  justify-content: space-around;
+}
+.imagesize {
+  height: 250px;
+  width: 200px;
+  /* display: flex; */
+}
+.flexdiv1 {
+  /* border: 1px solid red; */
+  width: 80%;
+  font-weight: 600;
+}
+
+.bagbtn {
+  margin-left: 30%;
+}
+.firstBox {
+  height: 150px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+}
+.secondBox {
+  height: 200px;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+.thirdBox {
+  height: 120px;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+.subtotal-left {
+  height: 150px;
+  width: 50%;
+  /* border: 1px solid yellow; */
+  margin-left: 2%;
+}
+.subtotal-right {
+  height: 150px;
+  width: 50%;
+  /* border: 1px solid green; */
+  text-align: right;
+  margin-right: 2%;
+}
+.payment-btn {
+  height: 50px;
+  width: 96%;
+  background-color: #0161ff;
+  color: white;
+  margin-left: 2%;
+  border: none;
+  font-weight: 600;
+}
+#apply {
+  height: 60px;
+  width: 250px;
+  border: 1px solid black;
+  margin-left: 2%;
+}
+.apply {
+  height: 60px;
+  width: 70px;
+  border: none;
+  background-color: black;
+  color: white;
+}

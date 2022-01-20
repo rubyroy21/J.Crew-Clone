@@ -1,0 +1,90 @@
+.logo1 {
+  margin-left: 45%;
+}
+body {
+  background-color: #f8f8f8;
+}
+.payment-details {
+  height: 1400px;
+  width: 90%;
+  margin: auto;
+  /* border: 1px solid black; */
+  display: flex;
+  gap: 30px;
+}
+.lefty {
+  margin-left: 8%;
+  height: 1400px;
+  width: 50%;
+  /* border: 1px solid green; */
+  margin-top: 3%;
+}
+.righty {
+  height: 100px;
+  width: 30%;
+  background-color: white;
+  margin-top: 3%;
+}
+.demo-ship {
+  height: 200px;
+  width: 90%;
+  margin: auto;
+  /* border: 1px solid blue; */
+  margin-top: 3%;
+}
+.demo-ship > img {
+  height: 200px;
+  width: 100%;
+}
+.address {
+  height: 500px;
+  width: 88%;
+  margin: auto;
+  /* border: 1px solid blue; */
+  background-color: white;
+}
+.addressbar {
+  height: 480px;
+  width: 85%;
+  margin: auto;
+  /* border: 1px solid red; */
+  margin-top: 2%;
+}
+.addressbar > input {
+  width: 84%;
+  height: 40px;
+  font-weight: 600;
+  margin-left: 4%;
+}
+#submit {
+  background-color: black;
+  color: white;
+  width: 84%;
+  margin-left: 5%;
+}
+.payment {
+  height: 500px;
+  width: 88%;
+  margin: auto;
+  /* border: 1px solid blue; */
+  background-color: white;
+}
+.paymentbar {
+  height: 480px;
+  width: 85%;
+  margin: auto;
+  /* border: 1px solid red; */
+  margin-top: 2%;
+}
+.paymentbar > input {
+  width: 84%;
+  height: 40px;
+  font-weight: 600;
+  margin-left: 4%;
+}
+#name {
+  width: 84%;
+  height: 40px;
+  font-weight: 600;
+  margin-left: 4%;
+}
